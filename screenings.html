@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="./index.css" />
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
@@ -21,9 +21,7 @@
                     d-flex
                     align-items-center
                     justify-content-between
-                    bg-violet-primary
-                "
-            >
+                    bg-violet-primary">
                 <div class="logo">
                     <h1 class="text-light logo-text">
                         <a
@@ -36,19 +34,17 @@
             </div>
             <nav id="navbar" class="navbar-dektop d-none d-md-block">
                 <ul class="list-unstyled d-flex justify-content-center">
-                       <li>
-                        <a class="nav-link" href="./index.html">Home</a>
+                      <li>
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./cinemas.html">Cinemas</a>
+                        <a class="nav-link" href="/cinemas.html">Cinemas</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./movies.html">Movies</a>
+                        <a class="nav-link" href="/movies.html">Movies</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="/screenings.html"
-                            >Screenings</a
-                        >
+                        <a class="nav-link" href="/screenings.html">Screenings</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -61,262 +57,245 @@
                     <tr>
                         <th scope="col">Date</th>
                         <th scope="col">Time</th>
-                        <th scope="col">Movie</th>
+                        <th scope="col">MovieInformation</th>
                         <th scope="col">Running Time</th>
+	          <th scope="col">Cinema_ID(FK)</th>
+	          <th scope="col">Theater_ID(FK)</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
+                        <th scope="row">21/08/2021</th>
+                        <td>19:00</td>
+                        <td>Action Movie</td>
+                        <td>1hrs 48mins</td>
+	         <td>1</td>
+		<td>107</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>18:30</td>
+                        <td>Action Movie</td>
+                        <td>1hrs 30mins</td>
+	          <td>1</td>
+		<td>109</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>22:00</td>
+                        <td>Suspense/revenge</td>
+                        <td>1hrs 30mins</td>
+		<td>1</td>
+		<td>103</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>21:00</td>
+                        <td>Action Movie</td>
+                        <td>2hrs 48mins</td>
+	         <td>1</td>
+		<td>104</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>18:30</td>
+                        <td>Action Movie</td>
+                        <td>1hrs 30mins</td>
+		<td>1</td>
+		<td>106</td>
+
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>22:00</td>
+                        <td>Scientific Movie</td>
+                        <td>2hrs 48mins</td>
+	          <td>2</td>
+		<td>110</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>23:00</td>
+                        <td>Crime movie</td>
+                        <td>1hrs 30mins</td>
+	           <td>2</td>
+		<td>101</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>19:30</td>
                         <td>Freedom</td>
                         <td>2hrs 48mins</td>
+		<td>1</td>
+		<td>109</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>19:30</td>
+                        <td>Animation Movie</td>
+                        <td>1hrs 30mins</td>
+		<td>1</td>
+		<td>109</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>18:00</td>
+                        <td>Action Movie</td>
+                        <td>1hrs 30mins</td>
+		<td>1</td>
+		<td>108</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>20:00</td>
+                        <td>Fiction Movie</td>
+                        <td>2hrs 48mins</td>
+		<td>2</td>
+		<td>106</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>18:30</td>
+                        <td>Action Movie</td>
+                        <td>1hrs 30mins</td>
+		<td>1</td>
+		<td>105</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>22:00</td>
+                        <td>Freedom</td>
+                        <td>1hrs 30mins</td>
+		<td>1</td>
+		<td>102</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>23:00</td>
+                        <td>Love Movie</td>
+                        <td>1hrs 30mins</td>
+		<td>2</td>
+		<td>107</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">21/08/2021</th>
+                        <td>15:00</td>
+                        <td>horror Movie</td>
+                        <td>1hrs 30mins</td>
+		<td>1</td>
+		<td>101</td>
                     </tr>
                 </tbody>
 
                 <tbody>
                     <tr>
                         <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
+                        <td>18:00</td>
+                        <td>Horror Movie</td>
                         <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
+		<td>2</td>
+		<td>100</td>
                     </tr>
                 </tbody>
 
 
                 <tbody>
                     <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
+                        <th scope="row">21/08/2021</th>
+                        <td>23:00</td>
+                        <td>Motivation Movie</td>
+                        <td>1hrs 30mins</td>
+		<td>1</td>
+		<td>109</td>
                     </tr>
                 </tbody>
 
                 <tbody>
                     <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
+                        <th scope="row">21/08/2021</th>
+                        <td>19:40</td>
                         <td>Freedom</td>
-                        <td>2hrs 48mins</td>
+                        <td>1hrs 30mins</td>
+		<td>1</td>
+		<td>110</td>
                     </tr>
                 </tbody>
 
                 <tbody>
                     <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
+                        <th scope="row">21/08/2021</th>
+                        <td>21:00</td>
+                        <td>Action Movie</td>
                         <td>2hrs 48mins</td>
+		<td>1</td>
+		<td>108</td>
                     </tr>
                 </tbody>
 
                 <tbody>
                     <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
+                        <th scope="row">21/08/2021</th>
+                        <td>14:00</td>
                         <td>Freedom</td>
-                        <td>2hrs 48mins</td>
+                        <td>1hrs 30mins</td>
+	         <td>1</td>
+		<td>101</td>
                     </tr>
                 </tbody>
 
                 <tbody>
                     <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
+                        <th scope="row">21/08/2021</th>
+                        <td>15:00</td>
+                        <td>Love Movie</td>
+                        <td>1hrs 30mins</td>
+	          <td>2</td>
+		<td>104</td>
                     </tr>
                 </tbody>
 
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">2/09/2021</th>
-                        <td>4:30pm</td>
-                        <td>Freedom</td>
-                        <td>2hrs 48mins</td>
-                    </tr>
-                </tbody>
             </table>
             <footer>
                 <div class="container-fluid bg-blue-primary footer py-5">
@@ -324,7 +303,7 @@
                           <div class="row">
                             <div class="col-md-4 col-12">Privacy Policy</div>
                             <div class="col-md-4 col-12">
-                                <a href="./contact.html"> Contact Us </a>
+                                <a href="contact.html"> Contact Us </a>
                             </div>
                             <div class="col-md-4 col-12">About Us</div>
                         </div>
