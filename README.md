@@ -12,3 +12,6 @@
 
 ### movies page
 ![image](https://user-images.githubusercontent.com/42163313/133920617-ee7f3968-0bbb-4ed7-a554-c42d53a4192e.png)
+
+
+
