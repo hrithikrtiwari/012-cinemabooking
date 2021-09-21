@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        />
+        <title>Eye candy Cinemas</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div
+                class="
+                    d-flex
+                    align-items-center
+                    justify-content-between
+                    bg-violet-primary
+                "
+            >
+                <div class="logo">
+                    <h1 class="text-light logo-text">
+                        <a
+                            href="index.html"
+                            class="text-decoration-none yellow-primary"
+                            ><span>EYE CANDY CINEMAS</span></a
+                        >
+                    </h1>
+                </div>
+            </div>
+            <nav id="navbar" class="navbar-dektop d-none d-md-block">
+                <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/cinemas.html">Cinemas</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/movies.html">Movies</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/screenings.html">Screenings</a>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- all modals here -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-1">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-1').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+
+                       Movie:  The Lord of the Rings: The Return of the King <br/>
+                       Director: Peter Jackson<br/>
+                       Year: 2003<br/>
+                       Duration: 3h 21min<br/>
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+             <!-- modal 002 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-002">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-002').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+
+                       Movie:  City of God <br/>
+                       Director: Fernando Meirelles<br/>
+                       Year: 2002<br/>
+                       Duration: 2h 10min<br/>
+
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 2 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-2">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-2').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+
+                       Movie:  City of God <br/>
+                       Director: Fernando Meirelles<br/>
+                       Year: 2002<br/>
+                       Duration: 2h 10min<br/>
+
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 3 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-3">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-3').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                       Movie: Avengers: Endgame<br/>
+                       Director: Anthony Russo<br/>
+                       Year: 2019<br/>
+                       Duration: 3h 1min<br/>
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 4 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-4">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-4').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                       Movie:  Inception<br/>
+                       Director: Christopher Nolan<br/>
+                       Year: 2010<br/>
+                       Duration: 2h 28min<br/>
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 5 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-5">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-5').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                       Movie:  The Lion King <br/>
+                       Director: Roger Allers<br/>
+                       Year: 1994<br/>
+                       Duration: 1hr 28min<br/>
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 6 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-6">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-6').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                       Movie:  Spider-Man: Into the Spider-Verse <br/>
+                       Director: Bob Persichetti<br/>
+                       Year: 2018<br/>
+                       Duration: 1h 57min<br/>
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 7 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-7">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-7').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                       Movie:  Batman Begins <br/>
+                       Director: Christopher Nolan<br/>
+                       Year: 2005<br/>
+                       Duration: 2h 20min<br/>
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 8 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-8">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-8').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                       Movie:  Jurrasic Park<br/>
+                       Director: Steven Spielberg<br/>
+                       Year: 1993<br/>
+                       Duration: 2h 7min<br/>
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 9 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-9">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-9').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                       Movie:  My Father and My Son<br/>
+                       Director:Cagan Irmak<br/>
+                       Year: 2004<br/>
+                       Duration: 1h 52min<br/>
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 10 -->
+             <!-- <div class="fixed-modal-box p-5 d-none" id="fixed-modal-10">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-10').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                       Movie:  The Lord of the Rings: The Return of the King <br/>
+                       Director: Peter Jackson<br/>
+                       Year: 2003<br/>
+                       Duration: 3h 21min<br/>
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div> -->
+            <!-- modal 11 -->
+             <div class="fixed-modal-box p-5 d-none" id="fixed-modal-11">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal-11').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                       Movie:  The Lord of the Rings: The Return of the King <br/>
+                       Director: Peter Jackson<br/>
+                       Year: 2003<br/>
+                       Duration: 3h 21min<br/>
+
+                    </div>
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                </div>
+            </div>
+            <!-- modal 12 -->
+            <!-- modal 13 -->
+
+            <article>
+                <section>
+                    <div class="row">
+
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-1').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid w-100"
+                                src="data:image/jpeg;base64,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"
+                                alt=""
+                            />
+                        </div>
+
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-002').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid w-100"
+                                src="https://images-na.ssl-images-amazon.com/images/I/91ebheNmoUL._RI_.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-2').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid w-100"
+                                src="https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-3').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid w-100"
+                                src="https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg?region=0%2C0%2C540%2C810"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-4').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid w-100"
+                                src="https://m.media-amazon.com/images/M/MV5BZGFjOTRiYjgtYjEzMS00ZjQ2LTkzY2YtOGQ0NDI2NTVjOGFmXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-5').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid w-100"
+                                src="https://images-na.ssl-images-amazon.com/images/I/810SG2gPSPL.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-6').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/spiderman_verse_rating_0.jpg?itok=N_U_lGHQ"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-7').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-8').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="cinema-photo-container col-md-3 col-6 m-5"
+                            onclick="document.getElementById('fixed-modal-9').classList.remove('d-none')"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="https://m.media-amazon.com/images/M/MV5BNjAzMzEwYzctNjc1MC00Nzg5LWFmMGItMTgzYmMyNTY2OTQ4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+                                alt=""
+                            />
+                        </div>
+                </section>
+            </article>
+            <!-- ------------------------------------------------------------- -->
+            <div class="fixed-modal-box p-5 d-none" id="fixed-modal">
+                <div class="bg-danger text-white">
+                    <div
+                        class="w-25 p-2"
+                        onclick="document.getElementById('fixed-modal').classList.add('d-none')"
+                    >
+                        &times; CLOSE
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <div class="">
+                        In 1856, a runaway slave (Cuba Gooding Jr.) and his
+                        family find help from the underground railroad, while in
+                        1748, the man's grandfather is captive aboard the ship
+                        of Capt. John Newton (Bernhard Forcher).
+                    </div>
+                    <a
+                        href="https://www.imdb.com/title/tt2584018/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View IMDB rating</a
+                    >
+                    <!-- <div class="d-flex youtube-video justify-content-center">
+                        <iframe
+                            src="https://www.youtube.com/embed/rTJXlbEJ0dw"
+                            height="450"
+                            width="900"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div> -->
+                </div>
+            </div>
+            <footer>
+                <div class="container-fluid bg-blue-primary footer py-5">
+                    <div class="container">
+                         <div class="row">
+                            <div class="col-md-4 col-12">Privacy Policy</div>
+                            <div class="col-md-4 col-12">
+                                <a href="contact.html"> Contact Us </a>
+                            </div>
+                            <div class="col-md-4 col-12">About Us</div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
