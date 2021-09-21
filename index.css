@@ -85,7 +85,7 @@ font-size: 120%;
     width: 60%;
     height: 90%;
     z-index: 101;
-    font-size: 90%;
+    font-size: 100%;
 }
 .cinema-photo-container{
     transition: all 0.6s;
